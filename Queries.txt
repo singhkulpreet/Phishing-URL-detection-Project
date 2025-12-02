@@ -1,0 +1,16 @@
+1. To parse an complete email (for ex. sample_phish.eml)
+
+	python scripts/parse_eml.py incoming_emails/sample_phish.eml > output/parsed.json
+
+2. To check reputation of an email
+
+	python scripts/url_reputation.py http://malicious-link.com > output/malicious-link.json
+
+3. To check attachments in Sandbox
+
+	python scripts/sandbox_submit.py incoming_emails/sample_phish.eml
+
+4. To generate report
+
+	python scripts/report_generator.py
+
