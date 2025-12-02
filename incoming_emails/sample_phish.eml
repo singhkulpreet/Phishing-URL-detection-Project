@@ -1,0 +1,38 @@
+From: "Microsoft Support" <support@m1crosoft-security.com>
+To: victim@example.com
+Subject: Urgent! Your Account Will Be Locked
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="XYZ123"
+
+--XYZ123
+Content-Type: text/plain; charset="UTF-8"
+
+Dear user,
+
+We detected unusual login activity on your Microsoft account.
+Please verify your identity to avoid permanent lock.
+
+Verify now:
+https://m1crosoft-security.com/login-verify
+
+Regards,
+Microsoft Support Team
+
+--XYZ123
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+  <body>
+    <p>Dear user,</p>
+    <p>We detected <b>unusual login activity</b> on your Microsoft account.</p>
+    <p>Please verify your identity to avoid permanent lock.</p>
+    <p>
+      <a href="https://m1crosoft-security.com/login-verify">
+        Click here to verify
+      </a>
+    </p>
+    <p>Regards,<br>Microsoft Support Team</p>
+  </body>
+</html>
+
+--XYZ123--
